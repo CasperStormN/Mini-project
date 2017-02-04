@@ -35,8 +35,144 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  font-family: arial; }
+#top-bar {
+  height: 85px;
+  border-bottom: 1px solid #c7c7c7;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7e7f84; }
+  @media screen and (max-width: 1000px) {
+    #top-bar {
+      border: none;
+      height: 63px; } }
+  @media screen and (max-width: 1000px) {
+    #top-bar .logo {
+      max-width: 60%; }
+      #top-bar .logo img {
+        max-width: 60%; } }
+  #top-bar .info li {
+    display: inline-block;
+    padding: 0 10px; }
+    @media screen and (max-width: 1000px) {
+      #top-bar .info li {
+        display: none; } }
+    #top-bar .info li:hover {
+      color: #f45a40; }
+      #top-bar .info li:hover .fa {
+        color: #f45a40; }
+    #top-bar .info li a {
+      color: inherit;
+      transition: all 200ms ease-in-out;
+      text-decoration: none; }
+    #top-bar .info li i {
+      padding-right: 5px; }
+    #top-bar .info li span {
+      font-size: 12px; }
+    #top-bar .info li:last-of-type {
+      padding: 10px 20px;
+      background-color: #ededed;
+      display: inline-block; }
+      @media screen and (max-width: 1000px) {
+        #top-bar .info li:last-of-type {
+          padding: 10px;
+          margin-right: 20px;
+          white-space: nowrap; } }
+      #top-bar .info li:last-of-type span {
+        padding-left: 15px; }
+        @media screen and (max-width: 1000px) {
+          #top-bar .info li:last-of-type span {
+            display: none; } }
 
-h1 {
-  font-family: 'PT Sans', sans-serif; }
+.navbar-toggle {
+  padding: 0;
+  margin: 0;
+  float: none;
+  top: 4.5px; }
+  @media (max-width: 1000px) {
+    .navbar-toggle {
+      display: inline-block; } }
+  .navbar-toggle .icon-bar {
+    background-color: #7e7f84;
+    height: 3px; }
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 5px; }
+
+#main-nav {
+  border-bottom: 7px solid #f45a40;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  height: 50px;
+  color: #7e7f84; }
+  @media screen and (max-width: 1000px) {
+    #main-nav {
+      height: 0; }
+      #main-nav .container {
+        position: absolute;
+        overflow: hidden;
+        right: 0;
+        width: 100%;
+        padding: 0; } }
+  #main-nav:after {
+    height: 20px;
+    content: ""; }
+  #main-nav nav {
+    transition: all 500ms ease-in-out; }
+    @media screen and (max-width: 1000px) {
+      #main-nav nav {
+        position: relative;
+        right: calc(-100% - 100px); } }
+    #main-nav nav li {
+      display: inline-block;
+      margin-right: calc(100% / 21);
+      line-height: 45px; }
+      @media screen and (max-width: 1000px) {
+        #main-nav nav li {
+          display: block;
+          text-align: center;
+          border-bottom: 1px solid #c7c7c7;
+          margin: 0; }
+          #main-nav nav li:first-of-type {
+            margin-top: 11px; } }
+      #main-nav nav li:hover {
+        color: #f45a40; }
+      #main-nav nav li a {
+        color: inherit;
+        transition: all 200ms ease-in-out;
+        text-decoration: none; }
+      #main-nav nav li:last-of-type {
+        float: right;
+        margin: 0;
+        font-size: 14px; }
+        @media screen and (max-width: 1000px) {
+          #main-nav nav li:last-of-type {
+            float: none; }
+            #main-nav nav li:last-of-type i {
+              display: none; } }
+        #main-nav nav li:last-of-type input {
+          padding-left: 5px;
+          font-family: arial, sans-serif;
+          border: 0;
+          height: 30px;
+          color: #7e7f84; }
+          @media screen and (max-width: 1000px) {
+            #main-nav nav li:last-of-type input {
+              text-align: center; } }
+
+.main-nav-border {
+  border-bottom: 2px solid #f45a40;
+  height: 4px; }
+
+#main-nav .mobile-menu {
+  right: 0; }
+
+body {
+  font-family: arial, sans-serif; }
+
+.fa {
+  color: #7e7f84;
+  transition: all 200ms ease-in-out; }

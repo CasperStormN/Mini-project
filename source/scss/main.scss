@@ -1,10 +1,17 @@
+$break-small: 1000px;
+
 @import "Assets/reset";
 @import "Assets/color";
+@import "Assets/mixins";
+@import "Partials/header";
+@import "Partials/footer";
 
 body {
-	font-family: arial;
+	font-family: arial, sans-serif;
 }
 
-h1 {
-	font-family: 'PT Sans', sans-serif;
+.fa {
+	color: $main-dark;
+	transition: all 200ms ease-in-out;
 }
+
