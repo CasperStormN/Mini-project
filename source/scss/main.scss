@@ -13,6 +13,14 @@ body {
 	font-family: arial, sans-serif;
 }
 
+.container {
+	padding: 0;
+
+	@media screen and (max-width: $break-small) {
+		padding: 0 15px;
+	}
+}
+
 .fa {
 	color: $main-dark;
 	transition: all 200ms ease-in-out;
@@ -26,7 +34,7 @@ body {
 .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1,
 .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4,
 .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-	padding: 0;
+	padding:0;
 }
 
 ::-webkit-input-placeholder {

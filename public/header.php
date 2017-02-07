@@ -25,15 +25,13 @@
 					<li><a href="mailto:lorem@ipsum.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>Lorem@Ipsum<span>.com</span></a></li>
 					<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>$ 0 <span>CHECKOUT</span></a>
 					</li>
-												<button type="button" class="navbar-toggle collapsed">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-          	</button>
+					<button type="button" class="navbar-toggle collapsed">
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+		          	</button>
 				</ul>
-
 			</div>
-
 		</div>
 	</div>
 		<div id="main-nav">

@@ -1,4 +1,5 @@
 <?php require_once('header.php'); ?>
+
 <div class="slider">
 	<ul id="slippry-demo">
 	<li>
@@ -69,50 +70,179 @@ playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>"
 
 <section class="popular-products">
 	<div class="container">
-		<h2>Popular products</h2>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-			<img src="assets/img/shoe.jpg" alt="">
-			<h3>Gel-Fujitrabuco 5 G-Tx</h3>
-			<h4>Running Shoe</h4>
-			<p>God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
-			<p>$ 86.99</p>
-			<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
-			<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
-			<button>Buy now</button>
+		<h2><div class="breaker"></div>Popular products <div class="breaker"></div></h2>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-			<img src="assets/img/shoe.jpg" alt="">
-			<h3>Gel-Fujitrabuco 5 G-Tx</h3>
-			<h4>Running Shoe</h4>
-			<p>God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
-			<p>$ 86.99</p>
-			<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
-			<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
-			<button>Buy now</button>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-			<img src="assets/img/shoe.jpg" alt="">
-			<h3>Gel-Fujitrabuco 5 G-Tx</h3>
-			<h4>Running Shoe</h4>
-			<p>God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
-			<p>$ 86.99</p>
-			<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
-			<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
-			<button>Buy now</button>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3">
-			<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-			<img src="assets/img/shoe.jpg" alt="">
-			<h3>Gel-Fujitrabuco 5 G-Tx</h3>
-			<h4>Running Shoe</h4>
-			<p>God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
-			<p>$ 86.99</p>
-			<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
-			<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
-			<button>Buy now</button>
+		<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 product">
+				<div class="inner">
+					<div class="top">
+						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<img src="assets/img/shoe.jpg" alt="">
+					</div>
+					<div class="content">
+						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
+						<h4>Running Shoe</h4>
+						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						<div class="product-price">
+							<p class="price">$ 86.99</p>
+							<div class="icons">
+								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+								<p><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+							</div>
+						</div>
+					</div>
+					<button>Buy now</button>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

@@ -7,7 +7,7 @@ var browserSync = require('browser-sync').create();
 // Static server
 gulp.task('browser-sync', ['build-css'], function() {
     browserSync.init({
-		proxy: "localhost/webdev/2. sem/Mini-project/public/index.php"
+		proxy: "localhost/MFD/Mini-project/public/index.php"
     });
 
     gulp.watch('source/scss/**/*.scss', ['build-css']);

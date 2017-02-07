@@ -1,7 +1,6 @@
 #top-bar {
 	height: 85px;
 	border-bottom: 1px solid $light-grey;
-	font-family: arial, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	display: flex;
@@ -137,7 +136,7 @@
 		li {
 			display: inline-block;
 			margin-right: calc(100% / 21); 
-			line-height: 45px;
+			line-height: 43px;
 
 			@media screen and (max-width: $break-small) {
 				display: block;
@@ -197,6 +196,7 @@
 			background-color: $drop-down;
 			padding: 20px 30px 20px 20px;
 			margin-top: -2px;
+			z-index: 100;
 
 
 			@media screen and (max-width: $break-small) {
