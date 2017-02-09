@@ -12,28 +12,28 @@ playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>"
 	<li>
 		<a href="#slide2">
 			<img src="assets/img/slider-1.jpg"  alt="<h1>LOREM.</h1><h1>
-IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch</p><p>
+IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
 playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>">
 		</a>
 	</li>
 	<li>
 		<a href="#slide3">
 			<img src="assets/img/slider-1.jpg" alt="<h1>LOREM.</h1><h1>
-IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch</p><p>
+IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
 playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>">
 		</a>
 	</li>
 	<li>
 		<a href="#slide4">
 			<img src="assets/img/slider-1.jpg" alt="<h1>LOREM.</h1><h1>
-IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch</p><p>
+IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
 playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>">
 		</a>
 	</li>
 	<li>
 		<a href="#slide5">
 			<img src="assets/img/slider-1.jpg" alt="<h1>LOREM.</h1><h1>
-IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch</p><p>
+IPSUM</h1><p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch
 playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>">
 		</a>
 	</li>
