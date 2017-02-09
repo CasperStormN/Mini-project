@@ -2,15 +2,20 @@ $break-small: 1000px;
 
 @import "Assets/reset";
 @import "Assets/color";
-@import "Assets/mixins";
 @import "Partials/header";
 @import "Partials/footer";
 @import "Partials/categories";
 @import "Partials/popular-products";
 @import "Partials/slider";
+@import "Partials/contact";
+@import "Partials/details";
 
 body {
 	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 .container {

@@ -76,12 +76,14 @@ playmakers, these kicks are ready to stand out.</p><button>Shop Brasil</button>"
 				<div class="inner">
 					<div class="top">
 						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+						<a href="details.php">
 						<img src="assets/img/shoe.jpg" alt="">
 					</div>
 					<div class="content">
 						<h3>Gel-Fujitrabuco 5 G-Tx</h3>
 						<h4>Running Shoe</h4>
 						<p class="product-info">God og robust terrænløbesko med GORE-TEX-membran. Overdel i let mesh og sål med affjedring både i hæl og forfod...</p>
+						</a>
 						<div class="product-price">
 							<p class="price">$ 86.99</p>
 							<div class="icons">
