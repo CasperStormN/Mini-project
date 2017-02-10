@@ -10,7 +10,7 @@ jQuery( document ).ready(function() {
 
   	jQuery('#slippry-demo').slippry({
   		'controls': false,
-  		'auto': false,
+  		//'auto': false,
   		'slideWrapper': '<div class="sy-slides-wrap" />'
   	})
 });

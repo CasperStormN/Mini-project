@@ -2,26 +2,38 @@
 
 <div id="details">
 	<div class="container">
-		<div class="col-xs-12 col-md-6">
-			<div class="image">
+		<div class="col-xs-12 col-md-6 img-preview">
+			<div class="img-container">
 				<img src="assets/img/shoe-big.jpg" alt="">
-				<div class="gallery">
+			</div>
+			<div class="gallery">
+				<div class="img-container col-xs-12 col-md-4">
 					<img src="assets/img/shoe-side.jpg" alt="">
+				</div>
+				<div class="img-container col-xs-12 col-md-4">
 					<img src="assets/img/shoe-atop.jpg" alt="">
+				</div>
+				<div class="img-container col-xs-12 col-md-4">
 					<img src="assets/img/shoe-front.jpg" alt="">
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6">
-			<div class="info">
-				<h1>Gel-Fujitrabuco 5 G-Tx</h1>
-				<img src="assets/img/asics-logo.png" alt="">
-				<p class="price">kr 947.90</p>
-				<div class="savings">
-					<p>kr 1115.24</p>
-					<p>You save 15.00%</p>
+		<div class="col-xs-12 col-md-6 info">
+			<h1>Gel-Fujitrabuco 5 G-Tx</h1>
+			<div class="info-container">
+				<div class="img-container">
+					<img src="assets/img/asics-logo.png" alt="">
 				</div>
-				<form action="">
+				<div class="price-info">
+					<p class="price">kr 947.90</p>
+					<div class="savings">
+						<p>kr 1115.24</p>
+						<p>You save 15.00%</p>
+					</div>
+				</div>
+			</div>
+			<form action="">
+				<div class="inputs">
 					<div>
 						<label for="">Size</label>
 						<select name="" id="">
@@ -34,9 +46,9 @@
 						<label for="">Amout</label>
 						<input type="text" value="1">
 					</div>
-					<input type="submit" value="BUY NOW">
-				</form>
-			</div>
+				</div>
+				<input type="submit" value="BUY NOW">
+			</form>
 		</div>
 		<div class="col-xs-12 ">
 			<div class="description">

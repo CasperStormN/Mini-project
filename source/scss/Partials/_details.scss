@@ -1,4 +1,98 @@
 #details {
+	margin-top: 30px;
+	color:$main-dark;
+
+	.img-preview {
+		padding-right: 30px;
+
+		.img-container {
+			border: 1px solid $light-grey;
+			margin: 0 auto;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.gallery {
+
+			.img-container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 175px;
+			}
+		}
+	}
+
+	.info {
+		padding-left: 30px;
+		margin-top: 50px;
+
+		h1 {
+			font-size: 28px;
+			font-weight: bold;
+			font-family: 'PT Sans', sans-serif;
+			margin-bottom: 20px;
+		}
+
+		.info-container {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+
+			.price {
+				font-size: 40px;
+				color: black;
+				font-weight: bold;
+				margin-top: 5px;
+				margin-bottom: 15px;
+			}
+
+			.savings {
+				text-align: right;
+
+				p:first-of-type {
+					text-decoration: line-through;
+					font-size: 24px;
+					margin-bottom:5px;
+				}
+
+				p:last-of-type {
+					font-style: italic;
+					font-size: 20px;
+				}
+			}
+		}
+
+		form {
+			
+			.inputs {
+				display: flex;
+				justify-content: space-between;
+
+				div {
+
+					&:first-of-type {
+						flex: 3;
+					}
+				}
+
+				label {
+					width: 100%;
+				}
+
+				select, input {
+					width: 100%;
+				}
+			}
+		}
+
+		.img-container {
+		}
+
+		.price-info {
+		}
+	}
+	
 	.accordion {
 		.content {
 			display: none;
