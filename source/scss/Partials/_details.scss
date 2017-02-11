@@ -1,5 +1,6 @@
 #details {
 	margin-top: 30px;
+	margin-bottom: 50px;
 	color:$main-dark;
 
 	.img-preview {
@@ -72,17 +73,46 @@
 				div {
 
 					&:first-of-type {
-						flex: 3;
+						flex-basis: 70%;
+					}
+
+					&:last-of-type {
+						flex-basis: 15%;
+						text-align: right;
+
+						input {
+							text-align: center;
+							padding: 0;
+						}
 					}
 				}
 
 				label {
 					width: 100%;
+					font-size: 20px;
+					font-weight: bold;
+					margin-bottom: 10px;
 				}
 
 				select, input {
 					width: 100%;
+					height: 50px;
+					border: 1px solid $main-dark;
+					font-size: 20px;
+					padding: 0 0 0 5px;
 				}
+			}
+
+			input[type=submit] {
+				padding: 10px 50px;
+				background-color: $main-orange;
+				border:0;
+				font-size: 28px;
+				font-weight: bold;
+				color: $main-white;
+				width: auto;
+				float: right;
+				margin-top: 40px;
 			}
 		}
 
@@ -93,9 +123,82 @@
 		}
 	}
 	
-	.accordion {
-		.content {
-			display: none;
+	.tabs {
+		float: none;
+	}
+	.nav-tabs li {
+	    float: left;
+	    margin-bottom: -1px;
+	}
+	.nav li {
+	    position: relative;
+	    display: block;
+	}
+
+	.nav-tabs {
+		border-bottom: 1px solid $tab-border;
+
+
+		.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
+			
+
+		}
+		.active-border {
+			border: 1px solid $tab-border;
+	    	margin-right: 10px;
+	   		border-radius: 15px 15px 0 0;
+			overflow: auto;
+		}
+
+		.active {
+			.active-border {
+	    		border-bottom: transparent;
+
+				a {
+					background-color: $main-white;
+					border-top: 9px solid $main-orange;
+					box-sizing: border-box;
+					padding-top: 6px;
+				}
+			}
 		}
 	}
+
+
+
+	.nav-tabs li a {
+	    line-height: 1.42857143;
+	    font-size: 24px;
+	    color: $main-dark;
+	    text-decoration: none;
+	    cursor: pointer;
+	    background-color: $tab-grey;
+
+	}
+
+	.nav li a {
+	    position: relative;
+	    display: block;
+	    padding: 15px 30px;
+	}
+
+	.description-text {
+
+
+	}
+
+	.tabs-text {
+		margin-top: 40px;
+
+		.col-xs-12 {
+			&:first-of-type {
+				padding-right: 15px;
+			}
+
+			&:last-of-type {
+				padding-left: 15px;
+			}
+		}
+	}
+
 }
