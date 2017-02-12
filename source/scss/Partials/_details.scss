@@ -3,14 +3,33 @@
 	margin-bottom: 50px;
 	color:$main-dark;
 
+	.basic-info {
+
+		@media screen and (max-width: $break-small) {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+	}
+
 	.img-preview {
 		padding-right: 30px;
+
+		@media screen and (max-width: $break-small) {
+			padding:0;
+		}
 
 		.img-container {
 			border: 1px solid $light-grey;
 			margin: 0 auto;
 			text-align: center;
 			margin-bottom: 20px;
+
+			img {
+				@media screen and (max-width: $break-small) {
+					max-width: 50%;
+				}
+			}
+
 		}
 
 		.gallery {
@@ -20,6 +39,27 @@
 				align-items: center;
 				justify-content: center;
 				height: 175px;
+				float: left;
+				width: calc(33.33% - 14px);
+				
+
+				@media screen and (max-width: $break-small) {
+					height: 125px;
+				}
+
+				img {
+					@media screen and (max-width: $break-small) {
+						max-height: 100px;
+					}
+				}
+			}
+
+			.middle {
+				margin: 0 21px;
+			}
+
+			.active {
+				border: 1px solid $main-orange;
 			}
 		}
 	}
@@ -28,11 +68,26 @@
 		padding-left: 30px;
 		margin-top: 50px;
 
+		img {
+			@media screen and (max-width: $break-small) {
+				width: 70%;
+			}
+		}
+
+		@media screen and (max-width: $break-small) {
+			padding:0;
+			margin: 0;
+		}
+
 		h1 {
 			font-size: 28px;
 			font-weight: bold;
 			font-family: 'PT Sans', sans-serif;
 			margin-bottom: 20px;
+
+			@media screen and (max-width: $break-small) {
+				font-size: 20px;
+			}
 		}
 
 		.info-container {
@@ -46,6 +101,10 @@
 				font-weight: bold;
 				margin-top: 5px;
 				margin-bottom: 15px;
+
+				@media screen and (max-width: $break-small) {
+					font-size: 30px;
+				}
 			}
 
 			.savings {
@@ -55,16 +114,29 @@
 					text-decoration: line-through;
 					font-size: 24px;
 					margin-bottom:5px;
+
+					@media screen and (max-width: $break-small) {
+						font-size: 20px;
+					}
 				}
 
 				p:last-of-type {
 					font-style: italic;
 					font-size: 20px;
+
+					@media screen and (max-width: $break-small) {
+						font-size: 16px;
+					}
 				}
 			}
 		}
 
 		form {
+			overflow: auto;
+
+			@media screen and (max-width: $break-small) {
+				margin-bottom: 50px;
+			}
 			
 			.inputs {
 				display: flex;
@@ -92,6 +164,10 @@
 					font-size: 20px;
 					font-weight: bold;
 					margin-bottom: 10px;
+
+					@media screen and (max-width: $break-small) {
+						font-size: 16px;
+					}
 				}
 
 				select, input {
@@ -100,6 +176,10 @@
 					border: 1px solid $main-dark;
 					font-size: 20px;
 					padding: 0 0 0 5px;
+
+					@media screen and (max-width: $break-small) {
+						font-size: 16px;
+					}
 				}
 			}
 
@@ -113,6 +193,11 @@
 				width: auto;
 				float: right;
 				margin-top: 40px;
+
+				@media screen and (max-width: $break-small) {
+					width: 100%;
+					font-size: 24px;
+				}
 			}
 		}
 
@@ -138,11 +223,6 @@
 	.nav-tabs {
 		border-bottom: 1px solid $tab-border;
 
-
-		.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
-			
-
-		}
 		.active-border {
 			border: 1px solid $tab-border;
 	    	margin-right: 10px;
@@ -158,46 +238,66 @@
 					background-color: $main-white;
 					border-top: 9px solid $main-orange;
 					box-sizing: border-box;
-					padding-top: 6px;
+					padding-top: 7px;
 				}
 			}
 		}
 	}
 
-
-
-	.nav-tabs li a {
-	    line-height: 1.42857143;
+	.nav li a {
+		line-height: 1.42857143;
 	    font-size: 24px;
 	    color: $main-dark;
 	    text-decoration: none;
 	    cursor: pointer;
 	    background-color: $tab-grey;
-
-	}
-
-	.nav li a {
 	    position: relative;
 	    display: block;
-	    padding: 15px 30px;
+	    padding: 15px 0;
+	    width: 190px;
+	    text-align: center;
+
+	    @media screen and (max-width: $break-small) {
+			width: auto;
+			padding-left: 15px;
+			padding-right: 15px;
+			font-size: 18px;
+		}
 	}
 
-	.description-text {
+	.tabs-text {
+		display: none;
+	}
 
-
+	.description {
+		display: block;
 	}
 
 	.tabs-text {
 		margin-top: 40px;
 
 		.col-xs-12 {
+
 			&:first-of-type {
 				padding-right: 15px;
+				
+				@media screen and (max-width: $break-small) {
+					padding: 0;
+					margin-bottom: 30px;
+				}
+
+
 			}
 
 			&:last-of-type {
 				padding-left: 15px;
+				
+				@media screen and (max-width: $break-small) {
+					padding: 0;
+				}
 			}
+
+
 		}
 	}
 
