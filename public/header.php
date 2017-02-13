@@ -52,7 +52,7 @@
 						<li><a href="#">Kids</a></li>
 						<li><a href="#">Sale</a></li>
 						<li><a href="#">About us</a></li>
-						<li><a href="#">Support</a></li>
+						<li><a href="contact.php">Support</a></li>
 						<li><i class="fa fa-search" aria-hidden="true"></i><input type="text" placeholder="Search..."></li>
 					</ul>
 				</nav>
